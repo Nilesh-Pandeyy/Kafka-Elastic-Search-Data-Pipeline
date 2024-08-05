@@ -74,20 +74,6 @@ app.post('/ecs-service/search1/:username', async (req, res) => {
     }
 });
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
 app.post('/ecs-service/search/:username', async (req, res) => {
     const username  = req.params.username;
     
