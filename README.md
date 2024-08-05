@@ -33,3 +33,16 @@ username (URL parameter):
 The username or prefix to search for.
 
 Description: Searches for usernames in Elasticsearch, returning all usernames starting with the provided prefix or matching exactly.
+
+
+Create Username
+
+Endpoint: POST /ecs-service/create
+
+Parameters:
+
+Body Parameters:
+username (string): The username to create.
+profilePhotoUrl (string): The URL of the profile photo.
+
+
